@@ -1,0 +1,14 @@
+auto: true
+
+markdown: rdiscount
+
+highlighter: 'pygments'
+#paginate: 8
+permalink: /:title
+
+name: “llfylwg's Blog”
+title: llfylwg's blog
+description: Everything about llfylwg.
+url: http://llfylwg.github.io
+feed: /atom.xml
+author_info: <a href="http://llfylwg.github.io/">llfylwg</a>
