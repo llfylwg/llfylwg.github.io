@@ -11,9 +11,9 @@ description: 如何解决？
 
 
 **错误代码如下**
-> `fs:js return bingding rename(pathMoudule._makeLong()),
 
-> error: cross-device link not permitted`
+    fs:js return bingding rename(pathMoudule._makeLong()),
+    error: cross-device link not permitted`
 
 代码如下：
 
