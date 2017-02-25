@@ -18,7 +18,8 @@ layout: default
         <h1 class="entry-title"><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h1>
         <p class="entry-date">{{ page.date|date:"%Y-%m-%d" }}</p>
         {{ content }}
-         <!-- 多说评论框 start -->
+        <div id="disqus_container">
+            <!-- 多说评论框 start -->
     <div class="ds-thread" data-thread-key="{{page.id}}" data-title="{{page.title}}" data-url="http://www.llfylwg.github.io/{{page.url}}"></div>
 <!-- 多说评论框 end -->
 <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
@@ -34,6 +35,7 @@ var duoshuoQuery = {short_name:"llfylwg"};
     })();
     </script>
 <!-- 多说公共JS代码 end -->
+<div id="disqus_thread"></div>
 <script>
     /**
      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
