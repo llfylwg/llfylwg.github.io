@@ -1,12 +1,12 @@
 ---
 layout: post
-title: js红包书学习之路-第二章
+title: js红宝书学习之路-第二章
 description: 复习总结概括高程知识.
 category: blog
 ---
 
 
-##重新复习回顾js高级程序设计  
+## 重新复习回顾js高级程序设计  
 
 > 感觉还是基础不够扎实所以看完书都整理下写出来  
   
@@ -19,7 +19,7 @@ category: blog
   来切换。文档类型就是html文件最顶部的‘doctype’。严格类型的文档类型对应标准模式，过度和框架型的文档类型对应准标准模式，文档类型有关键字提示。  
   * 第二章我觉得最重要的是script的标签位置这个小节。  
 
-##script标签  
+## script标签  
 script标签你可以放在html的head，body标签中。但是放的位置不同，影响也不同。浏览器在构建dom树的时候，css文件和img是异步的，但是js是会
 阻止dom树的构建的，结果就是js引擎先解析运行js，js完事后才继续构建dom树。    
 
