@@ -41,6 +41,7 @@ js共包括6种数据类型，Undefined，Null,Boolean,String,Number和Object（
 
 toString(),String(), 变量+"";
 除了null和undefined之外，其他都可以使用toString这个方法；
+toString方法对于数字支持传入第二个参数，指明输出值的进制；
 
 String方法可以用于所有变量，实际底层调用首先调用toString方法，没有该方法时，才会用String()去转；
 
