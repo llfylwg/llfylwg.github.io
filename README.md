@@ -4,5 +4,5 @@
 * 感谢来自于beiyuu的设计(http://beiyuu.com/)
 * 希望你喜欢
 * 欢迎star ~~
-* 欢迎fork111
+* 欢迎for
 
